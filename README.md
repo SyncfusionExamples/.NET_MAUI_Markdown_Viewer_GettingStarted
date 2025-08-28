@@ -11,30 +11,32 @@ This guide details the initial setup and basic usage of the [SfMarkdownViewer]()
 #### XAML
 
 ```xaml
-    <markdown:SfMarkdownViewer>
-        <markdown:SfMarkdownViewer.Source>
-            <x:String>
-                <![CDATA[
-# What is Markdown Viewer?  
-Markdown View is a UI control in .NET MAUI that allows developers to render Markdown content with full formatting support. It is designed to work efficiently across both mobile and desktop platforms. The viewer supports headings, bold and italic text, lists, tables, images, code blocks, etc.
+    <ContentPage>
+        <markdown:SfMarkdownViewer>
+            <markdown:SfMarkdownViewer.Source>
+                <x:String>
+                    <![CDATA[
+    # What is Markdown Viewer?  
+    Markdown View is a UI control in .NET MAUI that allows developers to render Markdown content with full formatting support. It is designed to work efficiently across both mobile and desktop platforms. The viewer supports headings, bold and italic text, lists, tables, images, code blocks, etc.
 
-# Header 1  
-Used for the main title or top-level heading in a Markdown document. 
+    # Header 1  
+    Used for the main title or top-level heading in a Markdown document. 
 
-## Header 2  
-Used to define major sections within your Markdown content.
+    ## Header 2  
+    Used to define major sections within your Markdown content.
 
-## Table 
+    ## Table 
 
-|              | Column 1 | Column 2 | Column 3 |
-|--------------|----------|----------|----------|
-| Row 1        | Content  | Content  | Content  |
-| Row 2        | Content  | Content  | Content  |
-| Row 3        | Content  | Content  | Content  |
-                ]]>
-            </x:String>
-        </markdown:SfMarkdownViewer.Source>
-    </markdown:SfMarkdownViewer>
+    |              | Column 1 | Column 2 | Column 3 |
+    |--------------|----------|----------|----------|
+    | Row 1        | Content  | Content  | Content  |
+    | Row 2        | Content  | Content  | Content  |
+    | Row 3        | Content  | Content  | Content  |
+                    ]]>
+                </x:String>
+            </markdown:SfMarkdownViewer.Source>
+        </markdown:SfMarkdownViewer>
+    </ContentPage>
 ```
 #### C#
 
@@ -77,4 +79,4 @@ Used to define major sections within your Markdown content.
 
 If you are facing a "Path too long" exception when building this example project, close Visual Studio and rename the repository to a shorter name before building the project.
 
-Refer to the User Guide documentation on [getting started with .NET MAUI SfMarkdownViewer]().
+Refer to the User Guide documentation on [getting started with .NET MAUI SfMarkdownViewer](https://help.syncfusion.com/maui/markdownviewer/getting-started).
