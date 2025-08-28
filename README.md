@@ -72,4 +72,4 @@ This guide details the initial setup and basic usage of the [SfMarkdownViewer]()
 {% endtabs %}
 
 ## Output
-[Output]
+<img width="1384" height="704" alt="maui-markdown-viewer-gettingstarted" src="https://github.com/user-attachments/assets/f455f302-0068-42fa-98de-851b92fbdb12" />
