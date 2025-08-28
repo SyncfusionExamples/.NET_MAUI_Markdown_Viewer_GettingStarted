@@ -70,3 +70,11 @@ Used to define major sections within your Markdown content.
 
 ## Output
 <img width="1384" height="704" alt="maui-markdown-viewer-gettingstarted" src="https://github.com/user-attachments/assets/f455f302-0068-42fa-98de-851b92fbdb12" />
+
+## Troubleshooting
+
+### Path Too Long Exception
+
+If you are facing a "Path too long" exception when building this example project, close Visual Studio and rename the repository to a shorter name before building the project.
+
+Refer to the User Guide documentation on [getting started with .NET MAUI SfMarkdownViewer]().
