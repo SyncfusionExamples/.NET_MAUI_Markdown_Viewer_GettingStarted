@@ -2,7 +2,7 @@
 
 This guide details the initial setup and basic usage of the [SfMarkdownViewer]() control, offering insight into its ability to render Markdown content with various formatting capabilities across mobile and desktop platforms.
 
-## Initialize the MarkdownViewer Control
+### Initialize the MarkdownViewer Control
 
 1. To initialize the control, import the `Syncfusion.Maui.MarkdownViewer` namespace.
 2. Add an [SfMarkdownViewer]() instance to your page.
@@ -70,8 +70,8 @@ This guide details the initial setup and basic usage of the [SfMarkdownViewer]()
     }  
 ```
 
-## Output
-<img width="1384" height="704" alt="maui-markdown-viewer-gettingstarted" src="https://github.com/user-attachments/assets/f455f302-0068-42fa-98de-851b92fbdb12" />
+### Output
+<img width="1397" height="715" alt="maui-markdown-viewer-gettingstarted" src="https://github.com/user-attachments/assets/cfa2c6aa-998a-4259-83ff-f6428d788b01" />
 
 ## Troubleshooting
 
