@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:markdown="clr-namespace:Syncfusion.Maui.MarkdownViewer;assembly=Syncfusion.Maui.MarkdownViewer"
+             x:Class="MarkdownViewerGettingStarted.MainPage">
+
+    <markdown:SfMarkdownViewer>
+        <markdown:SfMarkdownViewer.Source>
+            <x:String>
+                <![CDATA[
+# What is the Markdown Viewer?  
+The Markdown Viewer is a UI control in .NET MAUI that allows developers to render Markdown content with full formatting support. It was designed to work efficiently on both mobile and desktop platforms. The viewer supports headings, bold and italic text, lists, tables, images, code blocks and more.
+
+# Header 1  
+Used for the main title or top-level heading in a Markdown document. 
+
+## Header 2  
+Used to define major sections within your Markdown content.
+
+### Table 
+
+|              | Column 1 | Column 2 | Column 3 |
+|--------------|----------|----------|----------|
+| Row 1        | Content  | Content  | Content  |
+| Row 2        | Content  | Content  | Content  |
+| Row 3        | Content  | Content  | Content  |
+                ]]>
+            </x:String>
+        </markdown:SfMarkdownViewer.Source>
+    </markdown:SfMarkdownViewer>
+
+</ContentPage>
