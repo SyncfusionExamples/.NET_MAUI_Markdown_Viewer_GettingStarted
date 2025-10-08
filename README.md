@@ -70,9 +70,6 @@ This guide details the initial setup and basic usage of the [SfMarkdownViewer]()
     }  
 ```
 
-### Output
-<img width="1397" height="715" alt="maui-markdown-viewer-gettingstarted" src="https://github.com/user-attachments/assets/cfa2c6aa-998a-4259-83ff-f6428d788b01" />
-
 ## Troubleshooting
 
 ### Path Too Long Exception
