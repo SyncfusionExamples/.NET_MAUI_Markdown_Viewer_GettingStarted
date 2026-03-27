@@ -1,4 +1,6 @@
-﻿namespace MarkdownViewerGettingStarted
+﻿using Microsoft.Extensions.DependencyInjection;
+
+namespace MarkdownViewerGettingStarted
 {
     public partial class App : Application
     {
